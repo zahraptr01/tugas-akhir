@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- navbar -->
+            <nav class="nav">
+                <img src="/image/Logo.png" class="logo" alt="zpz">
+                <ul>
+                  <li>
+                    <a href="#intro" class="link">About</a>
+                  </li>
+                  <li>
+                    <a href="#projects" class="link">Portofolio</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            
+        </header>
+        <main>
+            <section class="intro">
+                <!-- Informasi Data Diri -->
+                <h2>Hallo ! <span>I'm Zahra Putri Zanuarti</span></h2>
+                
+                <div class="profile-container">
+                    <div class="img-profile">
+                        <img src="/image/profil.png" alt="Foto Profil">
+                    </div>
+                </div>
+            
+                <section id="about">
+                    <div class="profile">
+                        <p>Fresh graduate from the Informatics Study Program at Ahmad Dahlan University with an interest in Machine Learning, Data Analyst, and Data Science. 
+                            Have knowledge of data analysis, data processing and processing, data visualisation, SQL, and python programming language. 
+                            Creative, diligent, can work well in a team or individually, adaptable, and have good communication skills. 
+                            During my studies, I have created websites and mobile applications. 
+                            I have also been a laboratory assistant helping students in understanding key concepts, providing technical guidance, and providing assistance in solving related problems. 
+                            I became a Machine Learning Cohort Batch 2, Bangkit Academy organised by Google, GoTo, & Traveloka. 
+                            I also became a mentee in Learning Path Data Engineer at Alterra Indonesia.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            
+            <!-- Daftar Project -->
+            <section id="projects">
+                <div class="sub">
+                    <h2>My Project</h2>
+                </div>
+                <div class="projects-container">
+                    <div class="project">
+                        <img src="/image/project1.png" alt="Project 1">
+                        <h4>FreshEats</h4>
+                        <p>Membuat model Machine Learning untuk klasifikasi kesegaran makanan</p>
+                    </div>
+                    <div class="project">
+                        <img src="/image/project2.png" alt="Project 2">
+                        <h4>Transaction</h4>
+                        <p>Melakukan proses ETL pada data dan membuat visualisasi data pada VS Code</p>
+                    </div>
+                    <div class="project">
+                        <img src="/image/project3.png" alt="Project 3">
+                        <h4>Greeve</h4>
+                        <p>Melakukan proses ETL lalu membuat visualisasi data dengan Looker</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Informasi Skills -->
+            <section id="skills">
+                <div class="sub">
+                    <h2>My Skills</h2>
+                </div>
+                <section class="body">
+                    <div class="skills-container">
+                        <div class="skill">
+                            <img src="/image/system.png" alt="Skill 1">
+                            <h4>Machine Learning & Deep Learning</h4>
+                            <p>Pengelolaan dataset (training, testing, validation)
+                                Membangun model Convolutional Neural Network (CNN)
+                                Implementasi arsitektur MobileNet
+                                Evaluasi model dengan input gambar
+                                Integrasi model .h5 ke Android Studio</p>
+                        </div>
+                        <div class="skill">
+                            <img src="/image/system.png" alt="Skill 2">
+                            <h4>Data Engineer</h4>
+                            <p>ETL (Extract, Transform, Load) dari CSV, JSON, XML, SQLite, API World Bank
+                                Data transformation (penggabungan, pembersihan, encoding, imputasi, penyesuaian tipe data)
+                                Visualisasi data menggunakan Matplotlib</p>
+                        </div>
+                        <div class="skill">
+                            <img src="/image/system.png" alt="Skill 3">
+                            <h4>Data Analyst</h4>
+                            <p>Analisis pola penggunaan aplikasi
+                                Perancangan star schema untuk analisis data
+                                Transformasi data dan pembuatan fact table di BigQuery
+                                Visualisasi data menggunakan Looker dengan SQL query</p>
+                        </div>
+                        <div class="skill">
+                            <img src="/image/system.png" alt="Skill 3">
+                            <h4>Front-end Dev</h4>
+                            <p>HTML Struktur dasar halaman web
+                                CSS Styling dan layout (Flexbox, Grid)
+                                JavaScript (JS) Interaktivitas dan dinamika halaman</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Informasi Contact -->
+            <section id="contact">
+                <div class="contact-card">
+                    <h2>Contact Me</h2>
+                    <div class="contact-content">
+                        <!-- Bagian Sosial Media -->
+                        <div class="social-section">
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/zahra-putri-zanuarti/" target="_blank">
+                                    <img src="/image/linkedin.png" alt="LinkedIn"> LinkedIn
+                                </a>
+                                <a href="https://github.com/zahraptr01" target="_blank">
+                                    <img src="/image/github.png" alt="GitHub"> GitHub
+                                </a>
+                                <a href="https://www.instagram.com/zahraput_1?igsh=ZXZnMnJ2bWxpdTl2" target="_blank">
+                                    <img src="/image/ig.jpeg" alt="Instagram"> Instagram
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Bagian Form Contact -->
+                        <div class="form-section">
+                            <form id="contact-form">
+                                <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                                <textarea id="message" name="message" placeholder="Pesan Anda" required></textarea>
+                                <button type="submit">Kirim</button>
+                            </form>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>  
+    </div>
+    <footer>
+        &copy; Zahra Putri Zanuarti 2024 
+    </footer>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", async function (event) {
+            event.preventDefault();
+        
+            const form = document.querySelector("#contact-form");
+            const formData = new FormData(form);
+
+            const data = {
+            to: "zahrazahraputri57@gmail.com",
+            name: formData.get("name"),
+            subject: "Pesan dari Portofolio", 
+            text: formData.get("message"),
+            };
+        
+            try {
+              const response = await fetch("https://lumoshive-academy-email-api.vercel.app/send-email", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  "x-api-key": "0540540540540540540540540540540540540540540540540540540540540540",
+                },
+                body: JSON.stringify(data),
+              });
+        
+              const result = await response.json();
+              alert(result.message || "Pesan berhasil dikirim!");
+            } catch (error) {
+              console.error("Error:", error);
+              alert("Terjadi kesalahan, coba lagi!");
+            }
+          });
+        </script>        
+</body>
+</html>
